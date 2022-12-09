@@ -1,5 +1,10 @@
-﻿WriteLine("Hello, World!");
+﻿
+using Core_App;
 
-void test()
+var s_renamed = 1;
+WriteLine("Hello, World!");
+
+void test([NotNull] string? s)
 {
+    new Class1();
 }
